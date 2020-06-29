@@ -134,19 +134,11 @@
             <version>1.0.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
-        <!--<dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>3.3.0</version>
-        </dependency>
-
-      &lt;!&ndash;  &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-redis &ndash;&gt; &ndash;&gt;
+        <!--redis依赖配置-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-redis</artifactId>
-            <version>1.4.7.RELEASE</version>
-        </dependency>-->
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
         <dependency>
