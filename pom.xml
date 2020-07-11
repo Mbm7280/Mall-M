@@ -23,6 +23,14 @@
 
     <dependencies>
 
+        <!-- mongodb -->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
+        <!-- spring-aop-Begin -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
@@ -44,6 +52,7 @@
             <artifactId>aopalliance</artifactId>
             <version>1.0</version>
         </dependency>
+        <!-- spring-aop-End -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
