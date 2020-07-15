@@ -1,6 +1,7 @@
 package com.ex.mall.controller;
 
 import com.ex.mall.base.CommonResult;
+import com.ex.mall.base.anno.AspectAnno;
 import com.ex.mall.model.PmsBrand;
 import com.ex.mall.service.PmsBrandService;
 import io.swagger.annotations.Api;
@@ -33,6 +34,7 @@ public class PmsBrandController {
      * @return : com.ex.mall.base.CommonResult
      * @date : 2020/6/27 10:45
      */
+    @AspectAnno(desc = "查询品牌列表")
     @ApiOperation(value = "查询品牌列表")
     @PreAuthorize("hasAnyAuthority('pms:brand:read')")
     @GetMapping("/all")
