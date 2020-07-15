@@ -1,4 +1,4 @@
-package com.ex.mall.dto;
+package com.ex.mall.dto.other;
 
 import com.ex.mall.model.UmsAdmin;
 import com.ex.mall.model.UmsPermission;

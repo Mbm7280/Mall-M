@@ -1,7 +1,7 @@
 package com.ex.mall.controller;
 
 import com.ex.mall.base.CommonResult;
-import com.ex.mall.dto.UmsAdminLoginReqDTO;
+import com.ex.mall.dto.res.UmsAdminLoginReqDTO;
 import com.ex.mall.model.UmsAdmin;
 import com.ex.mall.service.UmsAdminService;
 import io.swagger.annotations.Api;

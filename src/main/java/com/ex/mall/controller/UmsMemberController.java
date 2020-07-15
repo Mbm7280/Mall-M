@@ -1,8 +1,7 @@
 package com.ex.mall.controller;
 
 import com.ex.mall.base.CommonResult;
-import com.ex.mall.dto.UmsMemberReqDTO;
-import com.ex.mall.service.RedisService;
+import com.ex.mall.dto.res.UmsMemberReqDTO;
 import com.ex.mall.service.UmsMemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

@@ -1,7 +1,7 @@
 package com.ex.mall.base.config;
 
 import com.ex.mall.base.CommonResult;
-import com.ex.mall.dto.AdminUserDetails;
+import com.ex.mall.dto.other.AdminUserDetails;
 import com.ex.mall.model.UmsAdmin;
 import com.ex.mall.model.UmsPermission;
 import com.ex.mall.service.UmsAdminService;

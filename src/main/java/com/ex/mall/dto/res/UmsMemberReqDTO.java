@@ -1,4 +1,4 @@
-package com.ex.mall.dto;
+package com.ex.mall.dto.res;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
